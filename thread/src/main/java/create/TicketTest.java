@@ -37,7 +37,7 @@ public class TicketTest {  // 线程：买票练习
             // 假设每个窗口有20人在排队抢票
             for (int i = 0; i < 20; i++) {
                 if (num > 0) {
-                    System.out.println("我在" + this.getName() + "买到了火车票，当前还剩" + (num--) + "张");
+                    System.out.println("我在" + this.getName() + "买到了火车票，当前还剩" + (--num) + "张");
                 } else {
                     break;
                 }
