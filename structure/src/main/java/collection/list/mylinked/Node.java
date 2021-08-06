@@ -1,4 +1,4 @@
-package collection.mylinked;
+package collection.list.mylinked;
 
 /**
  * @author liyi

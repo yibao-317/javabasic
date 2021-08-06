@@ -1,4 +1,4 @@
-package collection;
+package collection.list;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -6,6 +6,7 @@ import java.util.Iterator;
 
 /**
  * Collection 接口相关方法操作
+ *
  * @author liyi
  * @create 2021 -08 -02 -11:41
  */
@@ -29,6 +30,7 @@ public class CollectionDemo {
             Object next = iterator.next();
             System.out.println(next);
         }
+
 
     }
 
