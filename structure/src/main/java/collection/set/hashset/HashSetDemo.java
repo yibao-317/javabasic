@@ -1,4 +1,4 @@
-package collection.set;
+package collection.set.hashset;
 
 import java.util.LinkedHashSet;
 
