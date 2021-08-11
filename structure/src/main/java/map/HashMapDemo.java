@@ -9,7 +9,7 @@ import java.util.*;
 public class HashMapDemo { // 常用方法
     public static void main(String[] args) {
         // key值遵照哈希表原理，且 无序、唯一
-        HashMap<Integer,String> map = new HashMap<>();
+        HashMap<Integer, String> map = new HashMap<>();
 
         // 想要 "有序"  ---->>> 使用
 //        LinkedHashMap<Integer,String> map = new LinkedHashMap<>();
@@ -38,8 +38,9 @@ public class HashMapDemo { // 常用方法
         // 对 key/values 成对遍历
         Set<Map.Entry<Integer, String>> entries = map.entrySet();
         for (Map.Entry<Integer, String> entry : entries) {
-            System.out.println(entry.getKey()+"---->>"+entry.getValue());
+            System.out.println(entry.getKey() + "---->>" + entry.getValue());
         }
+
 
     }
 }
