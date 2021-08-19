@@ -24,6 +24,7 @@ public class Test02 {
     }
 }
 
+@FunctionalInterface   // 注解：用于检测函数式接口
 interface MyInterface02 {
     void testMethod02(int num); // 一个参数 & 无返回值
 }
