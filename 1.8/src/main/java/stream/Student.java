@@ -1,4 +1,4 @@
-package stream.deal;
+package stream;
 
 import java.util.Objects;
 
